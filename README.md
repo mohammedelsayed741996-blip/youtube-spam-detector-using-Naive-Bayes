@@ -1,4 +1,4 @@
-# 🚀 YouTube Spam Comment Detector using NLP & Machine Learning
+# YouTube Spam Comment Detector using NLP & Machine Learning
 
 An end-to-end Machine Learning and Natural Language Processing (NLP) project designed to automatically classify YouTube comments into **Ham** (legitimate comments) or **Spam** (promotional links, scams, or advertisements). 
 
@@ -6,7 +6,7 @@ This project demonstrates text preprocessing, vectorization, and the application
 
 ---
 
-## 📊 Dataset Overview
+##  Dataset Overview
 The project utilizes a comprehensive dataset consisting of **5 distinct CSV files**, each containing comment logs from popular YouTube videos (such as Psy, Katy Perry, Eminem, Shakira, and LMFAO):
 * `Youtube01.csv`
 * `Youtube02.csv`
@@ -25,7 +25,7 @@ The project utilizes a comprehensive dataset consisting of **5 distinct CSV file
 
 ---
 
-## 🛠️ Tech Stack & Libraries
+##  Tech Stack & Libraries
 * **Language:** Python 3.x
 * **Data Manipulation:** `Pandas`, `NumPy`
 * **Machine Learning & NLP:** `Scikit-Learn`
@@ -34,7 +34,7 @@ The project utilizes a comprehensive dataset consisting of **5 distinct CSV file
 
 ---
 
-## 🔄 Detailed Project Workflow & Methodology
+##  Detailed Project Workflow & Methodology
 
 ### 1. Data Integration & Preprocessing
 * Used Python's `glob` library to dynamically read all 5 CSV files from the local directory and merged them into a single unified DataFrame using `pd.concat()`.
